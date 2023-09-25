@@ -35,8 +35,85 @@ header div{
     justify-content: center;
 
 }
+
 header img {
     width: 18vw;
     cursor: pointer;
 
 }
+
+head ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header li {
+    margin-right:3vw ;
+    font-size: 1.8vw;
+    font-weight: lighter;
+    cursor.pointer;
+
+}
+
+.introdução{
+    height: 100vw;
+    display: flex;
+    align-items:center;
+}
+
+.introdução__texto{
+    width:50% ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introdução__imagem{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main--section_intro img{width: 40vw;}
+
+.main--section_intro h1{
+    width: 50%;
+    font-size: 3.7vw;
+    font-weight: bolder;
+}
+
+.plim{
+    height:60vw ;
+    font-size:2.5vw;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+span{
+    color: #6c63ff;
+}
+.formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formulário__box{
+    width: 90%;
+    height: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+

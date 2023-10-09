@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration:none;
+    font-family:'Poopins', sans-serif ;
+    cursor: default;
+
+}
+
+header{
+
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: Ellipse 2.'svg.png';
+    background-repeat : no-repeat ;
+    background-size : contain ;
+
+}
+
+header nav {
+
+    width: 40%;
+}
+
+header div{
+
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header img {
+
+    width: 18vw;
+    cursor: pointer;
+
+}
+
+head ul{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header li {
+
+    margin-right:3vw ;
+    font-size: 1.8vw;
+    font-weight: lighter;
+    cursor:pointer;
+
+}
+
+.introdução{
+
+    height: 100vw;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.introdução__texto{
+    
+    width:50% ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introdução__imagem{
+    
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main--section_intro img{
+    
+    width: 40vw;
+}
+
+.main--section_intro h1{
+    
+    width: 50%;
+    font-size: 3.7vw;
+    font-weight: bolder;
+}
+
+.plin{
+    
+    height:60vw ;
+    font-size:2.5vw;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+span{
+    
+    color: #6c63ff;
+}
+.formulario{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formulario__box{
+    
+    width: 90%;
+    height: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.fomulario__questões{
+    
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.texto__motivacional{
+    
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.formulário__questões input{
+    
+    width: 36vw;
+    height: 12vh;
+    border: 3px solid #6c63ff;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 15px;
+}
+.frormulário__questões input::placeholder{
+    
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: black;
+    padding-left: 2vw;
+}
+.enviar{
+    
+    height: 60vh;
+    margin-top: 20vh;
+}
+.enviar button{
+    
+    width: 36vw;
+    height: 12vh;
+    border-radius: 15px;
+    background-color: black;
+    color: #6c63ff;
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+.texto__motivacional__box{
+ 
+    border: solid black 2px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4pc rgba(0,0,0,0.25);
+   
+}
+.texto__moivcional__box p{
+    
+    font-size: 1.5vw;
+    font-weight: 700;
+    padding:3vh 1.5vw ;
+}
+footer{
+    
+    width:100% ;
+    height: 65vh;
+    padding:1vh 1vw ;
+    background-color: #6c63ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer ul{
+    
+    margin-left: 5vw;
+}
+footer li {
+    
+    margin-bottom: 1.5vw;
+    font-size: 2vw;
+    font-weight: 900;
+    cursor: pointer;
+}
+footer div{
+    
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer img{
+    
+    width: 23vw;
+}
